@@ -22,10 +22,10 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 @Client.on_message(filters.command("help"))
 async def help_user(c,m):
     button = [[
-               InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/AIOM_BOTS_GROUP"),
-               InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/AIOM_BOTS")
+               InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/Groupdc"),
+               InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/groupdcbots")
              ],[
-               InlineKeyboardButton("Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/ajvadntr/AIOM-TG-RENAME-BOT")
+               InlineKeyboardButton("Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/selfie-bd/AIOM-TG-RENAME-BOT")
              ]]
     markup = InlineKeyboardMarkup(button)
     try:
@@ -36,10 +36,10 @@ async def help_user(c,m):
 @Client.on_message(filters.command("start"))
 async def start_msg(c,m):
     button = [[
-               InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/AIOM_BOTS_GROUP"),
-               InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/AIOM_BOTS")
+               InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/GroupDc"),
+               InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/groupdcbots")
              ],[
-               InlineKeyboardButton("Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/ajvadntr/AIOM-TG-RENAME-BOT")
+               InlineKeyboardButton("Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/selfie-bd/AIOM-TG-RENAME-BOT")
              ]]
     markup = InlineKeyboardMarkup(button) 
     try:
