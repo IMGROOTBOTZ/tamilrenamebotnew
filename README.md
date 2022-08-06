@@ -11,17 +11,16 @@ And Auto Detection !!***
 
 #### Deploy To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/ajvadntr/AIOM-TG-RENAME-BOT)
-
+[![Deploy](https://github.com/IMGROOTBOTZ/tamilrenamebotnew?organization=IMGROOTBOTZ&organization=IMGROOTBOTZtemplate=
 #### Deploy To VPS
 * ****This Is Just A Demo Of Commands To Use****
-```
-git clone https://github.com/mrvishal2k2/TG-RenameBot
+
+git clone https://github.com/IMGROOTBOTZ/tamilrenamebotnew?organization=IMGROOTBOTZ&organization=IMGROOTBOTZ
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
 python3 bot.py
-```
+
 
 #### Required Variables
 
